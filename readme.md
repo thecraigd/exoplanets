@@ -2,6 +2,11 @@
 
 ![Exoplanet Transit](https://exoplanets.nasa.gov/system/resources/detail_files/697_StarShade_transit.gif)
 
+[![CraigDoesData][logo]][link]
+
+[logo]: https://github.com/thecraigd/Python_SQL/raw/master/img/logo.png
+[link]: https://www.craigdoesdata.com/
+
 ## Project Overview
 
 This project applies deep learning techniques to detect exoplanets using light flux data from NASA's Kepler Space Telescope. The dataset contains time series data of stellar light intensity measurements, where periodic dips in brightness can indicate the presence of an orbiting exoplanet passing in front of its host star.
