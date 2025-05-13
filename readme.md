@@ -14,7 +14,7 @@ This project attempts to apply deep learning techniques to detect exoplanets usi
 The primary goal is to build and train classification models that can accurately identify stars with orbiting exoplanets based on their light curve patterns.
 
 <figure>
-  <img src="img/light_flux_star1.png" alt="Light Flux Star" width="500">
+  <img src="img/light_flux_star1.png" alt="Light Flux Star">
   <figcaption>Example light flux data from a star with signs of exoplanet transit</figcaption>
 </figure>
 
