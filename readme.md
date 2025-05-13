@@ -1,4 +1,4 @@
-# Exoplanet Detection with Deep Learning
+# Exoplanet Detection with Deep Learning - WIP
 
 ![Exoplanet Transit](https://exoplanets.nasa.gov/system/resources/detail_files/697_StarShade_transit.gif)
 
@@ -9,9 +9,11 @@
 
 ## Project Overview
 
-This project applies deep learning techniques to detect exoplanets using light flux data from NASA's Kepler Space Telescope. The dataset contains time series data of stellar light intensity measurements, where periodic dips in brightness can indicate the presence of an orbiting exoplanet passing in front of its host star.
+This project attempts to apply deep learning techniques to detect exoplanets using light flux data from NASA's Kepler Space Telescope. The dataset contains time series data of stellar light intensity measurements, where periodic dips in brightness can indicate the presence of an orbiting exoplanet passing in front of its host star.
 
 The primary goal is to build and train classification models that can accurately identify stars with orbiting exoplanets based on their light curve patterns.
+
+![Light Flux Star](/img/light_flux_star1.png)
 
 ## Dataset
 
@@ -71,10 +73,13 @@ This project implements a deep learning approach using the FastAI library, which
 
 ## Results
 
-The project demonstrates how deep learning can be applied to astronomical data for exoplanet detection. The models developed here show promising results in identifying the subtle patterns of exoplanet transits in light flux measurements.
+The project attempts to demonstrate how deep learning can be applied to astronomical data for exoplanet detection. 
+
+The models developed thus far have some problems identifying the subtle patterns of exoplanet transits in light flux measurements. The major over-representation of stars with no exoplanet transits relative to stars with exoplanet transits means that the model as developed has effectively learned to say that every star has no exoplanet. This works well, leading to high accuracy and gets the loss function to a very low value.
 
 ## Future Work
 
+- Attempt different techniques to overcome the unevenly weighted dataset
 - Experiment with different neural network architectures
 - Implement feature selection to reduce dimensionality
 - Apply data augmentation techniques
