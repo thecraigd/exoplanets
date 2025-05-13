@@ -60,9 +60,8 @@ This project implements a deep learning approach using the FastAI library, which
 ├── exoTest.csv              # Test dataset
 ├── exoTrain.csv             # Training dataset 
 ├── kaggle_exoplanets.ipynb  # Main project notebook
+├── img/                     # Saved image directory
 ├── models/                  # Saved model directory
-├── naive_baseline.pkl       # Baseline model
-├── pos_weight_baseline.pkl  # Weighted baseline model
 └── README.md                # Project documentation
 ```
 
@@ -96,7 +95,7 @@ The models developed thus far have some problems identifying the subtle patterns
 
 ## License
 
-This project is open source and available under standard open source licenses.
+This project is open source and available under the [MIT License](https://opensource.org/license/mit).
 
 ## Acknowledgements
 
