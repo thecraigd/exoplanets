@@ -15,7 +15,7 @@ The primary goal is to build and train classification models that can accurately
 
 <figure>
   <img src="img/light_flux_star1.png" alt="Light Flux Star">
-  <figcaption>Example light flux data from a star with signs of exoplanet transit</figcaption>
+  <figcaption style=center>Example light flux data from a star with signs of exoplanet transit</figcaption>
 </figure>
 
 ## Dataset
